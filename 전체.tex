@@ -1,0 +1,32 @@
+\documentclass[chapter, oneside]{oblivoir}
+\usepackage{kotex}
+
+% 여잭 조절
+\usepackage{fapapersize}
+\usefapapersize{210mm, 297mm,30mm,*,20mm,15mm}
+
+% 사진첨부
+\usepackage{graphicx}
+
+%하이퍼링크 삽입
+%출처: https://goodtogreate.tistory.com/entry/Latex-에-하이퍼링크-추가방법 [GOOD to GREAT]
+\usepackage{hyperref} 
+\hypersetup{colorlinks=false,}  
+% 미주
+\usepackage{endnotes}
+
+\title{국토탐방메뉴얼}
+\author{이름}
+
+\makeindex
+\begin{document}
+
+    \maketitle
+    \begin{abstract}
+    한강 중류의 여러 명소(?)들을 지리적인 관점에서 관찰한다.
+    \end{abstract}
+    \newpage
+    \tableofcontents
+    \input{한강중류.tex}
+    \input{한강하류.tex}
+\end{document}
