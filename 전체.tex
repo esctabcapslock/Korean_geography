@@ -3,35 +3,42 @@
 
 % 여잭 조절
 \usepackage{fapapersize}
-\usefapapersize{210mm, 297mm,25mm,*,15mm,15mm}
+\usefapapersize{210mm, 297mm,30mm,*,35mm,30mm}
 % 사진첨부
-
-
 \usepackage{graphicx}
-
 %하이퍼링크 삽입
 %출처: https://goodtogreate.tistory.com/entry/Latex-에-하이퍼링크-추가방법 [GOOD to GREAT]
 \usepackage{hyperref} 
 \hypersetup{colorlinks=false,}  
 % 미주
 \usepackage{endnotes}
-
-
 %표
 \usepackage{array}
 \usepackage{booktabs} 
 \renewcommand{\arraystretch}{1.6}
 \renewcommand{\baselinestretch}{1.6}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
 
-\title{국토탐방매뉴얼}
+\title{한강 답사}
+\subtitle{답사국토탐방매뉴얼, 2021 국토지리}
 \author{이름}
-
+\date{\today\\​ \\​ \\​ \\​ \\ }
 \makeindex
 \begin{document}
-    \maketitle
-    \begin{abstract}
-    한강의 여러 명소들을 1박 2일동안 지리적인 관점이서 탐방한다.
-    한강의 발원지인 태백 검룡소에서 시작해 강화도에 이르는 500km의 한강 물줄기를 따라 이동한다.
+
+\maketitle
+\begin{abstract}
+한강은 한반도의 정 중앙을 관통하는 강으로써,
+우리 역사의 정치, 문화, 경제, 군사적 중심에 있던 강이다.
+이 보고서에서는 한강의 여러 명소들을 1박 2일동안 탐방하는 코스를 제안한다.
+한강, 그 중에서 우리가 접근 가능한 접근 가능한 남한강의 발원지인 태백 검룡소에서 시작해,
+서해 바다와 만나는 강화 앞바다까지 약 500km에 이르는 한강 물줄기를 따라 여행한다.
+한강의 자연지리적 특징은 물론이고, 강을 둘러싸고 벌어진 역사, 문화적인 인문지리적 특징도 함께 탐았다.
     \end{abstract}
     \newpage
     \tableofcontents
